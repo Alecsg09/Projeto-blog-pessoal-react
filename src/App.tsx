@@ -5,6 +5,7 @@ import Footer from './componentes/estaticos/footer/Footer';
 import Navbar from './componentes/estaticos/navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './paginas/login/Login';
+import CadastroUsuario from './paginas/cadastrousuario/CadastroUsuario';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/cadastro" element={<CadastroUsuario/>} />
          
         </Routes>
       </div>
