@@ -1,3 +1,12 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.cor {
+    background-color: black;
+
+}
+
+.cursor{
+    color: white;
+}
